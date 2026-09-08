@@ -1,0 +1,19 @@
+{
+  "summary": [
+    { "label": "Apps in flight", "value": "214", "change": "+18 vs last week", "tone": "primary" },
+    { "label": "Pipeline value", "value": "$42.6M", "change": "+$5.1M", "tone": "success" },
+    { "label": "Past SLA", "value": "19", "change": "6 critical", "tone": "error" },
+    { "label": "Next 7-day funding", "value": "$8.9M", "change": "14 deals", "tone": "warning" },
+    { "label": "At-risk loans", "value": "7", "change": "2 new this week", "tone": "info" }
+  ],
+  "pipeline": [
+    { "name": "Submitted", "count": 42, "value": "$6.8M", "color": "#dbeafe" },
+    { "name": "Document Collection", "count": 38, "value": "$6.1M", "color": "#bfdbfe" },
+    { "name": "Underwriting", "count": 51, "value": "$10.9M", "color": "#93c5fd" },
+    { "name": "Credit Committee", "count": 27, "value": "$5.4M", "color": "#c7d2fe" },
+    { "name": "Approved", "count": 23, "value": "$4.7M", "color": "#a7f3d0" },
+    { "name": "Disbursed", "count": 18, "value": "$3.1M", "color": "#bbf7d0" },
+    { "name": "Declined", "count": 11, "value": "$2.2M", "color": "#fecaca" },
+    { "name": "Withdrawn", "count": 4, "value": "$0.9M", "color": "#ddd6fe" }
+  ]
+}
