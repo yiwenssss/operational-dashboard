@@ -72,21 +72,21 @@ const getPipelineData = () => {
 
   return [...pipelineMap.entries()].map(([name, value]) => {
     const colorMap: Record<string, string> = {
-      Submitted: '#dbeafe',
-      'Document Collection': '#bfdbfe',
-      Underwriting: '#93c5fd',
-      'Credit Committee': '#c7d2fe',
-      Approved: '#a7f3d0',
-      Disbursed: '#bbf7d0',
-      Declined: '#fecaca',
-      Withdrawn: '#ddd6fe',
+      Submitted: '#8db8d1',
+      'Document Collection': '#6f9fbd',
+      Underwriting: '#4a7fc1',
+      'Credit Committee': '#004977',
+      Approved: '#7fc6a8',
+      Disbursed: '#1e7f5b',
+      Declined: '#c92d39',
+      Withdrawn: '#9aaab5',
     }
 
     return {
       name,
       count: value.count,
       value: formatCurrency(value.value),
-      color: colorMap[name] ?? '#dbeafe',
+      color: colorMap[name] ?? '#8db8d1',
     }
   })
 }

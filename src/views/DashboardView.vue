@@ -181,13 +181,13 @@ const filterModel = computed({
 
 <style scoped>
 .dashboard-shell {
-  background: linear-gradient(180deg, #edf3f9 0%, #f7f9fc 100%);
+  background: linear-gradient(180deg, #eaf2f5 0%, #f8fafb 100%);
 }
 
 .dashboard-footer {
-  border-top: 1px solid rgba(15, 23, 42, 0.08);
+  border-top: 1px solid var(--color-border);
   background: transparent;
-  color: #64748b;
+  color: var(--color-muted);
   font-size: 0.8rem;
 }
 
@@ -199,11 +199,11 @@ const filterModel = computed({
 }
 
 .status-dot.warning {
-  background: #f59e0b;
+  background: var(--color-warning);
 }
 
 .status-dot.error {
-  background: #ef4444;
+  background: var(--color-error);
 }
 
 .queue-list {
@@ -213,14 +213,14 @@ const filterModel = computed({
 }
 
 .queue-item {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
+  background: var(--color-surface-soft);
+  border: 1px solid var(--color-border);
   border-radius: 14px;
   padding: 14px 16px;
 }
 
 th {
-  color: #475569 !important;
+  color: var(--color-muted) !important;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;

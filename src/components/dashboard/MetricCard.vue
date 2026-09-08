@@ -23,11 +23,11 @@ const props = withDefaults(defineProps<Props>(), {
 
 <style scoped>
 .stat-card {
-  border: 1px solid rgba(0, 71, 187, 0.08);
-  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid var(--color-border);
+  background: rgba(255, 255, 255, 0.84);
 }
 
 .metric-value {
-  color: #0f172a;
+  color: var(--color-ink);
 }
 </style>

@@ -47,7 +47,7 @@ const maxCount = Math.max(1, ...props.items.map((item) => item.count))
 }
 
 .funnel-bar-group {
-  background: #e5e7eb;
+  background: var(--color-primary-soft);
   border-radius: 999px;
   overflow: hidden;
   height: 16px;
@@ -56,12 +56,12 @@ const maxCount = Math.max(1, ...props.items.map((item) => item.count))
 .funnel-bar {
   height: 100%;
   border-radius: 999px;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.28);
 }
 
 .stage-value {
   text-align: right;
-  color: #374151;
+  color: var(--color-ink);
 }
 
 @media (max-width: 960px) {
